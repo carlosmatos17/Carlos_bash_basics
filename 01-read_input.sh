@@ -12,7 +12,5 @@ echo 'Your name was stored in $name'
 # filename and create an empty file named after it
 
 echo "What would like to name your filename"
-read filename
-cd ~
-cd Desktop
-touch $filename.txt
+read namefile
+touch $namefile.txt
