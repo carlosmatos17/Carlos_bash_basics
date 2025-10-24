@@ -13,4 +13,6 @@ echo 'Your name was stored in $name'
 
 echo "What would like to name your filename"
 read filename
+cd ~
+cd Desktop
 touch $filename.txt
